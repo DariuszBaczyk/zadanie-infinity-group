@@ -1,0 +1,698 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
+*{
+    font-family: 'Open Sans';   
+    box-sizing: border-box; 
+}
+
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+p, li, h1, h2, h3, h4{
+    color: #2d2d2d;    
+}
+
+body{
+    background: #f9f9f9;
+}
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* ********* Header Area Start ********* */
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.9) 0%, rgba(59,141,34,0.9) 30%, rgba(210,190,37,0.9) 100%), url(../img/chips-circuit-board-computer-4316.jpg);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,0,0,9)), color-stop(30%, rgba(59,141,34,0.9)), color-stop(100%, rgba(210,190,37,0.9)), url(../img/chips-circuit-board-computer-4316.jpg));
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.9) 0%, rgba(59,141,34,0.9) 30%, rgba(210,190,37,0.9) 100%), url(../img/chips-circuit-board-computer-4316.jpg);
+    background: -o-linear-gradient(-45deg, rgba(0,0,0,0.9) 0%, rgba(59,141,34,0.9) 30%, rgba(210,190,37,0.9) 100%), url(../img/chips-circuit-board-computer-4316.jpg);
+    background: -ms-linear-gradient(-45deg, rgba(0,0,0,0.9) 0%, rgba(59,141,34,0.9) 30%, rgba(210,190,37,0.9) 100%), url(../img/chips-circuit-board-computer-4316.jpg);
+    background: linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(59,141,34,0.9) 30%, rgba(210,190,37,0.9) 100%), url(../img/chips-circuit-board-computer-4316.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    margin: 0 auto;
+    text-indent: -10000px;
+    background: url(../img/logo.png) no-repeat;
+    width: 70px;
+    float: left;
+}
+
+#navbar-container h1{
+    margin-top: 5px;
+}
+
+header nav{
+    width: 85%;
+    text-align: center;
+    overflow: hidden;
+}
+
+header nav ul{
+    display: inline-block;
+}
+
+header nav li{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    border-right: #fff solid 1px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav li:nth-child(4){
+    border: none;
+}
+
+
+#navbar-container h1 .sticky{
+    margin: 0;
+}
+
+.sticky #logo{
+    margin: 25px 0 0 25px;
+}
+
+.sticky nav{
+    width: 80%;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 70%;
+    background-color: #333;
+    z-index: 10000;
+    padding-bottom: 20px;
+}
+
+#hero-area{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#hero-area .text-center{
+    padding: 230px 0 300px 0;
+    font-size: 20px;
+}
+
+#hero-area #company-name p{
+    margin: 0;  
+    font-size: 45px;
+}
+
+#hero-area #company-name p:nth-child(1){
+    color: #fff;
+}
+
+/* ********* Header Area End ********* */
+
+/* ********* Mission Area Start ********* */
+
+#mission-area{
+    width: 70%;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+#mission-area h2{
+    font-size: 30px
+}
+
+.quote{
+    width: 30px;
+    height: 25px;
+    float: left;
+    background: url(../img/quote.png) no-repeat;
+}
+
+#mission-area{
+    margin-bottom: 70px;
+}
+
+#mission-area blockquote{
+    width: 90%;
+    padding-left: 10px 10%;    
+    line-height: 2.1em;
+}
+
+#mission-area:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ********* Mission Area End ********* */
+
+/* ********* Clients Area Start ********* */
+
+#clients-area{
+    background: url(../img/trianglify.jpg) no-repeat center;
+    background-size: cover;
+    padding: 80px 0 150px 0; 
+}
+
+#clients-area h2{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 60px;
+}
+
+#clients-area .client-work-image{
+    float: left;
+    width: 40%;
+}
+
+#clients-area .client-work-image img{
+    width: 100%;
+}
+
+#clients-area .client-quote{
+    float: right;  
+    width: 55%;
+}
+
+#clients-area blockquote{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+#clients-area .client-link{
+    color: #fff;
+    font-size: 16px;
+}
+
+#clients-area .tags{
+    float: left;
+    padding: 2px 2px;
+    margin: 10px 5px 0 0;
+    font-size: 12px;
+    color: #fff;
+    border: #fff solid 1px;
+}
+
+#clients-area .slideshow-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #aad6b1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* ********* Clients Area End ********* */
+
+/* ********* Products Area Start ********* */
+
+#products-area h2{
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 25px;
+}
+
+#products-area li{
+    width: 23%;
+    padding: 1%;
+    margin-bottom: 50px;
+    float: left;
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#products-area li img{
+    display: block;
+    margin: 20px auto;
+}
+
+#products-area li p{
+    display: none;
+    z-index: 0;
+}
+
+#products-area li:hover p{
+    display: block;
+    color: #fff;
+    position: absolute;
+    margin: auto;
+    left: -0.5px;
+    padding: 20px;
+    background-color: #62c017;
+    z-index: 1000;
+}
+
+#products-area li:hover{
+    background-color: #62c017;
+}
+
+#products-area:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* ********* Products Area End ********* */
+
+/* ********* Map Area Start ********* */
+
+#map-area{
+    height: 600px;
+    background: url(../img/map.jpg) no-repeat center 82%;
+    background-size: cover;
+    border-left: #e1e1e1 solid 40px;
+}
+
+#map-area #location-info{
+    float: left;
+    margin: 200px 0 0 10%;
+    height: 200px;
+}
+
+#map-area #location-info p{
+    width: 300px;
+}
+
+#map-area #location-info #compass{
+    width: 40px;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+    background: url(../img/compass.png) no-repeat;
+}
+
+#map-area #location-info:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ********* Map Area End ********* */
+
+/* ********* Contact Area Start ********* */
+
+#contact-form-area{
+    background-color: #f9f9f9;
+}
+
+#contact-form-area h2{
+    font-size: 30px;
+    width: 50%;
+    margin: 60px 0 40px 0;
+    padding-left: 40px;
+    float: left;
+}
+
+#contact-form-area button{
+    border: none;
+}
+
+#contact-form-area #lets-as-know{
+    float: right;
+    margin: 50px;
+}
+
+
+#contact-form-area .button-green{
+    background-color: #62c017;
+    border-radius: 2px;
+    padding: 10px 10px 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact-form-area .button-green img{
+    padding: 0 5px 0 15px;
+}
+
+#contact-form{
+    content: "";
+    display: block;
+    clear: both;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#contact-form p{
+    color: #666;
+    margin: 50px 0;
+}
+
+#contact-form form p{
+    font-size: 25px;
+    margin: auto;
+}
+
+#contact-form form p input[type=text], input[type=email], input[type=tel]{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 220px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#contact-form form p input::placeholder{
+    padding-left: 10px;
+}
+
+#contact-form form p:last-of-type{
+    margin: 30px auto;
+    font-size: 12px;
+}
+
+#contact-form form button[type=submit]{
+    display: block;
+    margin: auto;
+}
+
+/* ********* Contact Area End ********* */
+
+/* ********* Footer Area Start ********* */
+
+footer{
+    background-color: #262626;
+}
+
+footer #copy-text{
+    width: 70%;
+    clear: both;
+    margin: 15px auto 0;
+    padding: 15px 0;
+}
+
+footer p{
+    color: #666;
+    font-size: 10px;
+    margin: 0;
+}
+
+/* ***************************
+********* MEDIA QUERIES *********
+*************************** */
+
+@media screen and (max-width: 1600px){
+    #navbar-container{
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #navbar-container{
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    header nav{
+        margin: 0 13%;
+    }
+
+    #clients-area .slideshow-container{
+        margin-left: -10%;
+    }
+
+    #products-container{
+        width: 100%;
+    }
+
+    #products-area li{
+        width: 33%;
+    }
+
+    #products-area li:hover p{
+        left: 0;
+    }
+
+    #map-area #location-info{
+        margin: 200px 0 0 2%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    header nav li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    header nav{
+        margin: 0 16%;
+    }
+    
+    header nav li{
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+        display: block;
+        text-align: center;
+        border-top: 1px solid #fff !important;
+        border-right: none;
+    }
+
+    header nav li a{
+        width: 100%;        
+    }
+   
+    #burger-nav{
+        width: 100%;
+        height: 40px;
+        background: url(../img/burger-nav.png) no-repeat 98% center;
+        background-size: 40px;
+        float: right;
+        cursor: pointer;
+        margin: 5px 10px 0 0;
+    }
+    
+    header nav ul{
+        height: 0;
+        overflow: hidden;
+        float: left;
+    }
+    
+    header nav  ul.open{
+        padding-top: 25px;
+        height: auto;
+    }
+
+    #hero-area .text-center{
+        padding: 130px 0 180px 0;
+        font-size: 20px;
+    }
+
+    #mission-area{
+        width: 80%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+
+    #clients-area{
+        padding: 50px 0 100px 0; 
+    }
+
+    #slides-dots{
+        margin-top: 25px;
+    }
+
+    #products-area li{
+        width: 48%;
+    }
+
+    #products-area li:nth-child(10) img{
+        padding-bottom: 30px;
+    }
+
+    #products-area li p{
+        display: block;
+    }
+
+    #contact-form-area h2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    #contact-form-area #lets-as-know{
+        display: none;
+    }
+       
+}
+
+@media screen and (max-width: 650px){
+    header nav{
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .sticky nav {
+        width: auto;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+
+    #clients-area .client-work-image{
+        display: block;
+        width: 100%;
+    }
+
+    #clients-area .client-work-image img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #clients-area .client-quote{
+        display: block;
+        text-align: center;
+        width: 90%;
+    }
+    
+    #clients-area blockquote{
+        margin: 0;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    #clients-area .tags:nth-child(3){
+        margin-left: 30%;
+    }
+
+    #contact-form p{
+        text-align: center;
+    }
+
+    .quote{
+        margin-left: 35px;
+    }
+
+    #map-area{
+        height: 300px;
+    }
+
+    #map-area #location-info{
+        margin: 50px 0 0 0;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    #mission-area{
+        width: 100%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+
+    #clients-area .tags:nth-child(3){
+        margin-left: 15%;
+    }
+
+    #products-area li{
+        width: 80%;
+    }
+
+    #products-container li{
+        margin: 10%;
+    }
+
+    #contact-form-area h2{
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    #map-area #location-info p{
+        width: 98%;
+    }
+    
+}
